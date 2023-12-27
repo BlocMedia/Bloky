@@ -1,0 +1,213 @@
+/* Resetting default browser styles */
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+   
+  }
+  
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #000000;;
+    margin: 0;
+    padding: 0%;
+  }
+  
+  /* Header styles */
+  header{
+@media screen and (max-width: 768px) {
+  display: none;
+  
+}
+
+   
+
+  }
+  header div ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+  }
+  header div ul li a{
+    text-decoration: none;
+    list-style-type: none;
+    color: #007027;
+  }
+  header div ul li a:hover{
+    color: #000000;
+    font-weight: bolder;
+    transition-duration: 5s ease;
+    text-decoration: underline;
+
+  }
+header div img{
+    padding: 20px 15px;
+    
+}
+  
+  /* Hero section styles */
+  .hero {
+    position: relative;
+    width: 100vw;
+    height: fit-content;
+    text-align: center;
+    padding: 150px 20px;
+    line-height: 1;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(image\ 2.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 0%;
+    border-radius: 2px;
+    animation: slideshow 30s infinite;
+    animation-timing-function: ease-in-out;
+    
+  }
+
+  @keyframes slideshow {
+    0% {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(image\ 2.jpeg);
+    }
+    25% {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(image\ 3.jpg);
+      /* Replace 'image\ 3.jpeg' with your second image */
+    }
+    50% {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(image\ 1.jpg);
+      /* Replace 'image\ 4.jpeg' with your third image */
+    }
+    75% {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(image\ 4.jpeg);
+      /* Replace 'image\ 5.jpeg' with your fourth image */
+    }
+    100% {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(image\ 5.jpg);
+      /* Loop back to the first image */
+    }
+    
+  }
+  .hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: white;
+    text-shadow: #000000;
+  }
+  
+  .hero p {
+    
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: white;
+  }
+
+  .hero img {
+    background-size: cover;
+    margin-right: 10%;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 12px 24px;
+    text-decoration: none;
+    background-color: #007027;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    transition: background-color 0.9s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #ffffff;
+    color: #794500;
+    border: #0007cc;
+    border-radius: 5px;
+    border-color: #0007cc;
+    border-style: none;
+    transition-duration: 0.9s;
+    box-shadow: #333;
+  }
+  
+  /* Services section styles */
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .services {
+    background-color: #007027;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .service-item {
+    background-color: #007027;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-item h3 {
+    color: white;
+    margin-bottom: 10px;
+    align-content: center;
+    text-align: center;
+  }
+  
+  .service-item p {
+    color: white;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+  section h2 {
+    color: #007027;
+    text-align: center;
+  }
+  
+  .step {
+    background-color: #007027;
+    line-height: 30px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+
+  }
+
+  .step {
+    color: white;
+  }
+  /* Footer styles */
+  footer {
+    background-color: #ffffff;
+    color: #007027;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  .footer-links a {
+    color: #007027;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  
+  .contact-info p {
+    margin-bottom: 5px;
+  }
+  
+  .social-links a {
+    color: #007027;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
