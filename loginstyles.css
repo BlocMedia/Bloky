@@ -1,0 +1,73 @@
+body {
+    
+    position: relative;
+    width: 100vw;
+    height: fit-content;
+    text-align: center;
+    padding: 150px 20px;
+    line-height: 1;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url(image\ 1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 0%;
+    ;
+}
+.welcome {
+    font-size: 50px;
+    color: white;
+    font-weight: bolder;
+    margin-bottom: 20px;
+
+}
+.password {
+    text-align: left;
+    color: white;
+
+}
+
+body section div input {
+    padding: 10px;
+    background-color: transparent;
+    border-radius: 20px;
+    size: 20px;
+    margin-bottom: 20px;
+    border-color: white;
+}
+
+.Username {
+    color: white;
+}
+
+.keep-me {
+    color: rgb(152, 152, 152);
+    
+}
+
+body section div a {
+    color: white;
+    text-decoration: none;
+}
+
+body section div button {
+    background-color: transparent;
+    border-color: white;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+body section div button:hover {
+    background-color: green;
+    box-shadow: 1px 1px white;
+    transition: 80ms ease-in 1s ease-out;
+    
+}
+
+.logged-in {
+    color: transparent;
+}
