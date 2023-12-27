@@ -19,6 +19,32 @@ padding: 0%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 0%;
+     animation: slideshow 30s infinite;
+    animation-timing-function: ease-in-out;
+    
+  }
+
+  @keyframes slideshow {
+    0% {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(image\ 2.jpeg);
+    }
+    25% {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(image\ 3.jpg);
+      /* Replace 'image\ 3.jpeg' with your second image */
+    }
+    50% {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(image\ 1.jpg);
+      /* Replace 'image\ 4.jpeg' with your third image */
+    }
+    75% {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(image\ 4.jpeg);
+      /* Replace 'image\ 5.jpeg' with your fourth image */
+    }
+    100% {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(image\ 5.jpg);
+      /* Loop back to the first image */
+    }
+    
 
   }
 
