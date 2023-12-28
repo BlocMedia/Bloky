@@ -67,7 +67,7 @@ header div img{
     background-attachment: fixed;
     background-position: 0%;
     border-radius: 2px;
-    animation: slideshow 30s infinite;
+    animation: slideshow 1min infinite;
     animation-timing-function: ease-in-out;
     
   }
