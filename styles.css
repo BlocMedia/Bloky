@@ -18,7 +18,7 @@
   
   /* Header styles */
   header{
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 700px) {
   display: none;
   
 }
